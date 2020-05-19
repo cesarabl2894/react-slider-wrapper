@@ -5,7 +5,7 @@ import 'react-magic-slider-dots/dist/magic-dots.css';
 import './css/slick.min.css';
 // import './css/theme.css';
 
-class SliderWrpper extends Component {
+class SliderWrapper extends Component {
   constructor(props) {
     this.state = {
       activeSlide: 0,
@@ -43,4 +43,4 @@ class SliderWrpper extends Component {
 }
 
 
-export default SliderWrpper;
+export default SliderWrapper;
