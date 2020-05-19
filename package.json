@@ -1,8 +1,8 @@
 {
   "name": "react-slider-wrapper",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A wrapper for the react-slick with some options stablished",
-  "main": "./src/",
+  "main": "./build/",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
