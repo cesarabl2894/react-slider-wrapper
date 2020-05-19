@@ -1,6 +1,6 @@
 {
   "name": "react-slider-wrapper",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A wrapper for the react-slick with some options stablished",
   "main": "./src/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "react": "^16.8.6",
+    "react-dom": "^16.13.1",
     "react-magic-slider-dots": "^1.2.0",
     "react-slick": "^0.26.1"
   },

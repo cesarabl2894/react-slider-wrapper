@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import MagicSliderDots from 'react-magic-slider-dots';
 import 'react-magic-slider-dots/dist/magic-dots.css';
 import './css/slick.min.css';
-import './css/theme.css';
+// import './css/theme.css';
 
 class SliderWrpper extends Component {
   constructor(props) {
