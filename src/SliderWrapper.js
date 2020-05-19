@@ -6,10 +6,14 @@ import './css/slick.min.css';
 import './css/theme.css';
 
 class SliderWrpper extends Component {
-  state = {
-    activeSlide: 0,
-    slideCount: 0
-  };
+  constructor(props) {
+    this.state = {
+      activeSlide: 0,
+      slideCount: 0
+    };
+    super(props);
+  }
+  
   render() {
     const { children, settings } = this.props;
     const sliderSettings = {

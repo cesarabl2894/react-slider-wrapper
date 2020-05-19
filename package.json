@@ -4,6 +4,8 @@
   "description": "A wrapper for the react-slick with some options stablished",
   "main": "./index.js",
   "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
@@ -20,6 +22,11 @@
     "slider",
     "react-component"
   ],
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-magic-slider-dots": "^1.2.0",
+    "react-slick": "^0.26.1"
+  },
   "files": [
     "src"
   ],
@@ -32,14 +39,13 @@
   "devDependencies": {
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
+    "webpack": "latest",
+    "webpack-cli": "^3.3.11",
+    "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack-cli": "^3.3.11"
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "css-loader": "latest",
+    "style-loader": "latest"
   }
 }
