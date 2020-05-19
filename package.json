@@ -1,6 +1,6 @@
 {
   "name": "react-slider-wrapper",
-  "version": "2.1.0",
+  "version": "1.0.6",
   "description": "A wrapper for the react-slick with some options stablished",
   "main": "src/index.js",
   "scripts": {
