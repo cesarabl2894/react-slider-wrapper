@@ -1,6 +1,6 @@
 {
   "name": "react-slider-wrapper",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A wrapper for the react-slick with some options stablished",
   "main": "./build/",
   "scripts": {
@@ -22,14 +22,8 @@
     "slider",
     "react-component"
   ],
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.13.1",
-    "react-magic-slider-dots": "^1.2.0",
-    "react-slick": "^0.26.1"
-  },
   "files": [
-    "src"
+    "build","README.md"
   ],
   "repository": {
     "type": "git",
@@ -47,6 +41,10 @@
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "css-loader": "latest",
-    "style-loader": "latest"
+    "style-loader": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.13.1",
+    "react-magic-slider-dots": "^1.2.0",
+    "react-slick": "^0.26.1"
   }
 }
