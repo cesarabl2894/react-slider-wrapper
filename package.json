@@ -1,6 +1,6 @@
 {
   "name": "react-slider-wrapper",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A wrapper for the react-slick with some options stablished",
   "main": "./build/",
   "scripts": {
@@ -23,7 +23,8 @@
     "react-component"
   ],
   "files": [
-    "build","README.md"
+    "build",
+    "README.md"
   ],
   "repository": {
     "type": "git",
