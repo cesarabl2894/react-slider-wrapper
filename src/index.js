@@ -5,7 +5,7 @@ import 'react-magic-slider-dots/dist/magic-dots.css';
 import './css/slick.min.css';
 import './css/theme.css';
 
-class SiteSlider extends Component {
+class SliderWrpper extends Component {
   state = {
     activeSlide: 0,
     slideCount: 0
@@ -39,4 +39,4 @@ class SiteSlider extends Component {
 }
 
 
-export default SiteSlider;
+export default SliderWrpper;
