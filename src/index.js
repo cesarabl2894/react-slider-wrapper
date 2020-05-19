@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SliderWrapper from './src/SliderWrapper';
+import SliderWrapper from './SliderWrapper';
 
 class App extends Component {
   render() {
