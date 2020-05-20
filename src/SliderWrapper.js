@@ -7,11 +7,12 @@ import './css/slick.min.css';
 
 class SliderWrapper extends Component {
   constructor(props) {
+    super(props);
+  
     this.state = {
       activeSlide: 0,
       slideCount: 0
     };
-    super(props);
   }
   
   render() {
