@@ -4,7 +4,7 @@ The purpose of this project is to make a wrap for the popular library react-slic
 The usage is pretty the same as the normal slick, and you can send the settings via props, all the properties are the same as the Slick Slider
 
 ```js
-import SlideWrapper from 'react-slider-wrapper';
+import { SlideWrapper } from 'react-slider-wrapper';
 
 <SlideWrapper>
   <img src="path-to-image"/>
