@@ -13,9 +13,9 @@ import SiteSlider from 'react-slider-wrapper';
 </SiteSlider>
 ```
 
-You can show the couter by adding on the props on the settings props, the showCounter property and hide the Instagram dots via sending dots=false
+You can show the couter by adding on the props  showCounter and hide the Instagram dots via sending dots=false
 ```js 
-<SiteSlider settings={showCounter: true, dots: false}>
+<SiteSlider settings={ {dots: false} } showCounter={ true } >
 ```
 
 Also, custom the Instagram Dots using the numDots property on the settings props of the Component, by default is setup to 3

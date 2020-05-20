@@ -48,7 +48,7 @@ SliderWrapper.defaultProps = {
   showCounter: false
 }
 
-SliderWrapper.PropTypes = {
+SliderWrapper.propTypes = {
   settings: PropTypes.object,
   showCounter: PropTypes.bool
 }
