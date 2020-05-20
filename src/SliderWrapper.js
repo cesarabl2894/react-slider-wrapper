@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
+import PropTypes from 'prop-types';
 import Slider from 'react-slick';
 import MagicSliderDots from 'react-magic-slider-dots';
 import './assets/css/slick.min.css';
 import './assets/css/theme.css';
 import 'react-magic-slider-dots/dist/magic-dots.css';
-import PropTypes from 'prop-types';
 
 class SliderWrapper extends Component {
   constructor(props) {
