@@ -1,6 +1,6 @@
 {
   "name": "react-slider-wrapper",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "A wrapper for the react-slick with some options stablished",
   "main": "./lib/",
   "scripts": {
