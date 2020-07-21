@@ -28,7 +28,7 @@ class SliderWrapper extends Component {
           <MagicSliderDots 
             dots={dots} 
             numDotsToShow={ settings.numDots || 3 } 
-            dotWidth={30} 
+            dotWidth={settings.dotWidth || 30} 
           />
         );
       },
